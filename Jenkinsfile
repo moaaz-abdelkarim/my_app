@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo '🔹 Cloning repository from GitHub...'
-                git branch: 'main', url: 'https://github.com/moaaz-abdelkarim/my_app.git'
+                git branch: 'Master', url: 'https://github.com/moaaz-abdelkarim/my_app.git'
             }
         }
 
